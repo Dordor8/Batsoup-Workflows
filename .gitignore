@@ -17,6 +17,7 @@
 mono_crash.*
 
 venv/
+tests/
 
 # Build results
 [Dd]ebug/

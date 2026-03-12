@@ -1,11 +1,12 @@
-- name: temp
+  name: temp
   inputs:
     artifacts:
       #in files
 
   container:
     image: temp
-    command: []
+    command:
+    args:
     env:
       #variables
 
