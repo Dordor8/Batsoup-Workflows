@@ -5,18 +5,23 @@ inputs:
     path: t/test.txt
   - name: test2
     path: t/test2.txt
+      #in files
+
 container:
   image: image:version
   command:
   - python
   args:
-  - '"main.py"'
+  - "main.py"
   env:
   - name: v
-    value: '"rr"'
+    value: "rr"
   - name: v2
-    value: '"tt"'
+    value: "tt"
+      #variables
+
 outputs:
   artifacts:
   - name: test3
     path: t/test3.txt
+      #out files
