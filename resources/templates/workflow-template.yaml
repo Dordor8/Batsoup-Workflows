@@ -7,6 +7,7 @@ metadata:
       temp
     workflows.argoproj.io/version: '>= 3.1.0'
 spec:
+  serviceAccountName: argo
   entrypoint: main
   templates:
 
